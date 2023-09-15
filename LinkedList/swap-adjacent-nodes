@@ -1,0 +1,25 @@
+const LinkedListNode = class {
+    constructor(nodeData) {
+        this.data = nodeData;
+        this.next = null;
+    }
+};
+// Complete the function below
+var reversePair = function (head) {
+    let ans=new LinkedListNode(0)
+    let prev=ans
+    let first=head
+    while(first&&first.next){
+        let second=first.next// first is checked as first can't be null.next
+        // let future=second.next
+        let future=first.next.next// here first.next should not be null so first.next as second can be written as first.next
+        second.next=first
+        first.next=future
+        prev.next=second
+        prev=first
+        first=future
+    }
+    return ans.next
+};
+
+
