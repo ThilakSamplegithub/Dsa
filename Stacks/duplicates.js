@@ -13,5 +13,4 @@ function duplicates(str){
     }else{
         console.log(stack.join(''))
     }
-    // console.log(stack.join(''))
 }
