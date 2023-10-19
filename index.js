@@ -10,5 +10,5 @@
 // }else{
 //     console.log("Can not solve it")
 // }
-const{s}=require("./Binary_search/searchIndex.js")
-// console.log(s)
+// const{s}=require("./Binary_search/searchIndex.js")
+const{n}=require("./Binary_search/smallestLettergreater_thanTarget.js")
