@@ -14,6 +14,6 @@ for(let i=0;i<=n-2;i++){
 }
 return arr
 }
-let arr=[5,4,3,2,1]
+let arr=[-5,-94,-13,-22,-11]
 const ins = insertionSort(arr)
 module.exports={ins}
