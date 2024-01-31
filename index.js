@@ -11,4 +11,6 @@
 //     console.log("Can not solve it")
 // }
 // const{s}=require("./Binary_search/searchIndex.js")
-const{n}=require("./Binary_search/smallestLettergreater_thanTarget.js")
+// const{n}=require("./Binary_search/smallestLettergreater_thanTarget.js")
+const {ins}=require("./Sorting_algorithms/insertion_sort.js")
+console.log(ins)
